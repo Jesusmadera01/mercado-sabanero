@@ -1,6 +1,15 @@
+"""Reglas de descuento por volumen de compra."""
+
+# (subtotal mínimo, porcentaje de descuento), de mayor a menor
+TRAMOS_VOLUMEN = [
+    (500_000, 10),
+    (200_000, 5),
+]
+
+
 def porcentaje_descuento_volumen(subtotal):
-    if subtotal >= 500_000:
-        return 10
-    if subtotal >= 200_000:
-        return 5
+    """Devuelve el porcentaje de descuento (0, 5 o 10) según el subtotal."""
+    for minimo, porcentaje in TRAMOS_VOLUMEN:
+        if subtotal >= minimo:
+            return porcentaje
     return 0
