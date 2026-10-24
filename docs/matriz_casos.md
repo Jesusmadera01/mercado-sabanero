@@ -34,3 +34,4 @@
 | CP-30 | HU-06 CA1 | 1 punto en el límite | total 1.000 | 1 punto | Pendiente |
 | CP-31 | HU-06 CA1 | Puntos del ejemplo | total 250.515 | 250 puntos | Pendiente |
 | CP-32 | HU-06 CA2 | Cliente ORO doble de puntos | total 250.515, ORO | 500 puntos | Pendiente |
+| CP-33 | HU-01 CA1 | Cantidad igual al stock | stock 10, cantidad 10 | Carrito con 10 unidades, sin error | Pendiente |
